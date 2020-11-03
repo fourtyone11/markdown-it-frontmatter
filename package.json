@@ -1,0 +1,30 @@
+{
+  "name": "@asleeppiano/markdown-it-frontmatter",
+  "version": "0.0.1",
+  "description": "Plugin to process front matter",
+  "repository": "fourtyone11/markdown-it-frontmatter",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint .",
+    "test": "ava"
+  },
+  "keywords": [
+    "markdown-it-plugin",
+    "markdown-it",
+    "markdown"
+  ],
+  "devDependencies": {
+    "ava": "^3.13.0",
+    "eslint": "^7.1.0",
+    "markdown-it": "markdown-it/markdown-it",
+    "rollup-plugin-terser": "^7.0.2",
+    "terser": "^4.7.0"
+  },
+  "dependencies": {
+    "@iarna/toml": "^2.2.5",
+    "js-yaml": "^3.14.0",
+    "rollup": "^2.33.1"
+  }
+}
